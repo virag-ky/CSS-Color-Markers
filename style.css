@@ -12,25 +12,53 @@ h1 {
   margin: 25px auto;
 }
 .red {
-  background-color: rgb(255, 0, 0);
+  background: linear-gradient(
+    rgb(150, 55, 50),
+    rgb(255, 80, 120),
+    rgb(150, 55, 50)
+  );
 }
 .orange {
-  background-color: rgb(255, 140, 20);
+  background: linear-gradient(
+    rgb(150, 70, 10),
+    rgb(255, 140, 20),
+    rgb(150, 70, 10)
+  );
 }
 .yellow {
-  background-color: rgb(255, 255, 0);
+  background: linear-gradient(
+    rgb(150, 150, 10),
+    rgb(255, 255, 0),
+    rgb(150, 150, 10)
+  );
 }
 .green {
-  background-color: rgb(0, 200, 0);
+  background: linear-gradient(
+    rgb(50, 100, 10),
+    rgb(0, 200, 0),
+    rgb(50, 100, 10)
+  );
 }
 .blue {
-  background-color: rgb(0, 200, 255);
+  background: linear-gradient(
+    rgb(50, 100, 200),
+    rgb(0, 200, 255),
+    rgb(50, 100, 200)
+  );
 }
 .indigo {
-  background-color: rgb(0, 0, 200);
+  background: linear-gradient(
+    rgb(10, 50, 100),
+    rgb(0, 100, 220),
+    rgb(10, 50, 100)
+  );
 }
 .violet {
-  background-color: rgb(150, 0, 255);
+  background: linear-gradient(
+    rgb(70, 10, 180),
+    rgb(150, 50, 255),
+    rgb(70, 10, 180)
+  );
 }
 .cap,
 .sleeve {
