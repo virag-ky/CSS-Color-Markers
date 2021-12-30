@@ -32,3 +32,16 @@ h1 {
 .violet {
   background-color: rgb(150, 0, 255);
 }
+.cap,
+.sleeve {
+  display: inline-block;
+}
+.cap {
+  width: 80px;
+  height: 25px;
+}
+/*.sleeve {
+  width: 180px;
+  height: 25px;
+  background-color: black;
+}*/
