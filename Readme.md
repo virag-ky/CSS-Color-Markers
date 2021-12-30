@@ -1,0 +1,1 @@
+This mini project is from freeCodeCamp, I made my own version of it. Made with HTML and CSS.
