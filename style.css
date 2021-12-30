@@ -17,6 +17,7 @@ h1 {
     rgb(255, 80, 120),
     rgb(150, 55, 50)
   );
+  box-shadow: 10px 8px 20px 0 hsl(360, 80%, 50%);
 }
 .orange {
   background: linear-gradient(
@@ -24,6 +25,7 @@ h1 {
     rgb(255, 140, 20),
     rgb(150, 70, 10)
   );
+  box-shadow: 10px 8px 20px 0 hsl(20, 80%, 50%);
 }
 .yellow {
   background: linear-gradient(
@@ -31,6 +33,7 @@ h1 {
     rgb(255, 255, 0),
     rgb(150, 150, 10)
   );
+  box-shadow: 10px 8px 20px 0 hsl(60, 80%, 50%);
 }
 .green {
   background: linear-gradient(
@@ -38,13 +41,11 @@ h1 {
     rgb(0, 200, 0),
     rgb(50, 100, 10)
   );
+  box-shadow: 10px 8px 20px 0 hsl(110, 80%, 50%);
 }
 .blue {
-  background: linear-gradient(
-    rgb(50, 100, 200),
-    rgb(0, 200, 255),
-    rgb(50, 100, 200)
-  );
+  background: linear-gradient(rgb(50, 100, 200), rgb(0, 200, 255), #3264c8);
+  box-shadow: 10px 8px 20px 0 hsl(200, 80%, 50%);
 }
 .indigo {
   background: linear-gradient(
@@ -52,6 +53,7 @@ h1 {
     rgb(0, 100, 220),
     rgb(10, 50, 100)
   );
+  box-shadow: 10px 8px 20px 0 hsl(220, 80%, 50%);
 }
 .violet {
   background: linear-gradient(
@@ -59,6 +61,7 @@ h1 {
     rgb(150, 50, 255),
     rgb(70, 10, 180)
   );
+  box-shadow: 10px 8px 20px 0 hsl(260, 80%, 50%);
 }
 .cap,
 .sleeve {
@@ -68,8 +71,23 @@ h1 {
   width: 80px;
   height: 25px;
 }
-/*.sleeve {
-  width: 180px;
+.sleeve {
+  width: 170px;
   height: 25px;
-  background-color: black;
-}*/
+  background-color: rgba(0, 10, 10, 40%);
+  border-left: 10px double black;
+}
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+  .marker {
+    width: 200px;
+  }
+  .cap {
+    width: 65px;
+  }
+  .sleeve {
+    width: 100px;
+  }
+}
